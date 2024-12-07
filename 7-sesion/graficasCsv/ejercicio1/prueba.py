@@ -30,7 +30,7 @@ if p_value < 0.05:
     plt.figure(figsize=(10, 6))
     plt.scatter(X, y, color='blue', s=100, label='Datos')
     plt.plot(X, y_pred, color='red', label='Línea de regresión')
-    plt.title('Relación entre Race Effectiveness y Exercise1 Effectiveness', fontsize=16)
+    plt.title('Impacto de la educación en pruebas de software de gamificación', fontsize=16)
     plt.xlabel('Race Effectiveness', fontsize=14)
     plt.ylabel('Exercise1 Effectiveness', fontsize=14)
     plt.legend(loc='best')
